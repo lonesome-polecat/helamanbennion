@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/lonesome-polecat/adventure-rentals#readme",
   "dependencies": {
-    "fastify": "^4.28.1",
+    "express": "^4.19.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

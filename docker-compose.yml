@@ -9,3 +9,5 @@ services:
       NODE_ENV: ${NODE_ENV}
     env_file:
       - ./.env
+    volumes:
+      - ./src:/app/src

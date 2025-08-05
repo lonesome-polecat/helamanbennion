@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "dev": "vite",
+    "dev2": "nodemon src/index.js",
     "build": "vite build",
     "start": "node src/index.js"
   },
@@ -29,6 +30,7 @@
     "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^9.8.0",
     "jest": "^29.7.0",
+    "nodemon": "^3.1.10",
     "vite": "^5.4.0"
   }
 }

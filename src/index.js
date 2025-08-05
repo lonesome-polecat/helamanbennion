@@ -28,10 +28,10 @@ const logger = (req, res, next) => {
 
 app.use(logger);
 
-app.use(express.static('public'))
+app.use(express.static('./src/public'))
 
 app.use((_req, res) => {
-    res.sendFile('./public/index.html', { root: './' });
+    res.sendFile('./src/public/index.html', { root: './' });
 });
 
 app.listen(port, () => {

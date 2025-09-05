@@ -1,11 +1,34 @@
 :root {
     --background-color: rgb(220, 240, 240);
+    --standard-padding: 10px;
 }
 
 body {
     background-color: var(--background-color);
 }
 
+div {
+    padding: var(--standard-padding);
+}
+
 h3 {
     color: darkgrey;
+}
+
+#banner-main {
+    display: flex;
+}
+
+#content-main {
+    display: flex;
+    justify-content: center;
+}
+
+#menu-list {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+#menu-list > li {
+    padding: 20px;
 }
